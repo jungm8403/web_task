@@ -10,7 +10,7 @@ import WordTemplate from './Page/WordTemplate';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/web_task">
       <Routes>
     <Route path="/" element={<Intro />} />           // 첫 진입은 인트로
     <Route path="/home" element={<Home />} />        // 홈 페이지는 여기
